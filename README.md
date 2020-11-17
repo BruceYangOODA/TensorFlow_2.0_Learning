@@ -11,5 +11,9 @@ TensorFlow 2.0的视频教程链接：[深度学习与TensorFlow 2实战](https:
 06_VGG16_cifar10  
 07_Inception_mnist  
 08_ResNet_fashion  
+09_RNN_imdb_SentimentAnalysis  
+10_RNN_Color Robot  
+11_AE_AutoEncoder_mnist  
+12_VAE_VaritionalAE_fashion  
 
 
