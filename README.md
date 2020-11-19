@@ -22,10 +22,12 @@ TensorFlow 2.0的视频教程链接：[深度学习与TensorFlow 2实战](https:
 
 
 
+!pip install keras-bert
 !pip install tensorflow==2.0  
 !pip install tensorflow_hub  
 !pip install bert-for-tf2  
 !pip install sentencepiece  
+
 
 import tensorflow_hub as hub  
 import tensorflow as tf  
