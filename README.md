@@ -22,12 +22,12 @@ TensorFlow 2.0的视频教程链接：[深度学习与TensorFlow 2实战](https:
 
 
 
-!pip install tensorflow==2.0
-!pip install tensorflow_hub
-!pip install bert-for-tf2
-!pip install sentencepiece
+!pip install tensorflow==2.0  
+!pip install tensorflow_hub  
+!pip install bert-for-tf2  
+!pip install sentencepiece  
 
-import tensorflow_hub as hub
-import tensorflow as tf
-from bert import tokenization
-from tensorflow.keras.models import Model 
+import tensorflow_hub as hub  
+import tensorflow as tf  
+from bert import tokenization  
+from tensorflow.keras.models import Model   
