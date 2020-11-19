@@ -1,15 +1,16 @@
 
-## [Tensorflow API](https://www.tensorflow.org/api_docs/python/tf/transpose)
+### [Tensorflow API](https://www.tensorflow.org/api_docs/python/tf/transpose)
+### [Keras API](https://keras.io/api/)
+### [Numpy API](https://numpy.org/doc/stable/reference/index.html)
 
 [关于 Markdown](https://xianbai.me/learn-md/article/syntax/paragraphs-and-line-breaks.html)  
 
 Tensorflow_2.0_Towards
 
 02_Tensorflow_basic_API  
-
+03_Keras_intro  
 
 ### 02_Tensorflow_basic_API
-
 tf.convert_to_tensor()   
 tf.Variable()  
 tf.random.normal(shape, mean=0.0, stddev=1.0)  高斯分配  
@@ -32,3 +33,14 @@ tf.matmul()
 tf.reduce_mean(input_tensor, axis=None, keepdims=False)  維度平均值  
 tf.argmax(input, axis=None, output_type=tf.dtypes.int64)  維度最高值 index  
 
+
+### 03_Keras_intro
+自定義 Layer  
+自定義 Model  
+模型儲存  
+model.save_weigits(filepath)  
+model = create_model()  
+model.load_weights(filepath)  
+
+model.save(filepath)  
+model = models.load_model(filepath)  
