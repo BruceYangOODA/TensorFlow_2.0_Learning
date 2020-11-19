@@ -38,9 +38,14 @@ tf.argmax(input, axis=None, output_type=tf.dtypes.int64)  維度最高值 index
 自定義 Layer  
 自定義 Model  
 模型儲存  
+檔案讀取  
 model.save_weigits(filepath)  
 model = create_model()  
 model.load_weights(filepath)  
 
 model.save(filepath)  
 model = models.load_model(filepath)  
+
+tf.data.TextLineDataset(filenames)  
+tf.keras.utils.get_file(fname, origin=URL)  
+pd.read_csv(filepath)  
