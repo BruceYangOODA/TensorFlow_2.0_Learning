@@ -16,7 +16,9 @@ TensorFlow 2.0的视频教程链接：[深度学习与TensorFlow 2实战](https:
 10_RNN_Color Robot  
 11_AE_AutoEncoder_mnist  
 12_VAE_VaritionalAE_fashion  
-
+13_DCGAN_mnist  
+15_CycleGAN  
+17_A2C_  
 
 
 
