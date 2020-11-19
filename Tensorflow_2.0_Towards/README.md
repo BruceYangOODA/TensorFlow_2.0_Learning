@@ -1,6 +1,5 @@
 
-### [Tensorflow API](https://www.tensorflow.org/api_docs/python/tf/transpose)
-### [Keras API](https://keras.io/api/)
+### [Tensorflow API](https://www.tensorflow.org/api_docs/python/tf/transpose)  ### [Keras API](https://keras.io/api/)
 ### [Numpy API](https://numpy.org/doc/stable/reference/index.html)
 
 [关于 Markdown](https://xianbai.me/learn-md/article/syntax/paragraphs-and-line-breaks.html)  
