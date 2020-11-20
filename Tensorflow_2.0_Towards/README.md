@@ -52,10 +52,10 @@ tf.keras.utils.get_file(fname, origin=URL)
 pd.read_csv(filepath)  
 
 ### 05_DNN_fashion  
-Deep Neural Network 深度神經網路
-data = tf.data.Dataset.from_tensor_slices((x,y))
-data = data.map(fuction).shuffle(num_smp).batch(batch_size)
+Deep Neural Network 深度神經網路  
+data = tf.data.Dataset.from_tensor_slices((x,y))  
+data = data.map(fuction).shuffle(num_smp).batch(batch_size)  
 
-data_iter = iter(data)
-samples = next(data_iter)
-y_one_hot = tf.one_hot(y, depth=10)
+data_iter = iter(data)  
+samples = next(data_iter)  
+y_one_hot = tf.one_hot(y, depth=10)  
