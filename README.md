@@ -14,6 +14,10 @@ TensorFlow 2.0的视频教程链接：[深度学习与TensorFlow 2实战]
  
  [该项目主要用来记录一些论文与经典书籍的阅读笔记，主要涵盖机器学习、自然语言处理以及强化学习等领域的经典论文](https://github.com/NELSONZHAO/paper-learning-and-notes)  
 
+[Advanced Deep Learning with TensorFlow 2 and Keras (Updated for 2nd Edition)](https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras)
+
+
+
 01_FCN_and_CNN_mnist  
 03_FCN_CustomLayer_boston  
 05_FCN_CustomLayer_CustomModel_fashion  
