@@ -9,6 +9,7 @@ Tensorflow_2.0_Towards
 
 02_Tensorflow_basic_API  
 03_Keras_intro  
+05_DNN_fashion  
 
 ### 02_Tensorflow_basic_API
 tf.convert_to_tensor()   
