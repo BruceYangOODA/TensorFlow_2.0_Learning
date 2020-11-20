@@ -8,12 +8,9 @@
 
 TensorFlow 2.0的视频教程链接：[深度学习与TensorFlow 2实战]  
 
-[TensorFlow 快速入门与实战](https://study.163.com/course/courseMain.htm?share=2&shareId=480000001847407&courseId=1209092816&_trace_c_p_k2_=dca16f8fd11a4525bac8c89f779b2cfa)  
-
-
-(https://github.com/DjangoPeng/tensorflow-101)
+[TensorFlow 快速入门与实战](https://github.com/DjangoPeng/tensorflow-101)  
  
- https://github.com/YunYang1994/TensorFlow2.0-Examples  
+[TensorFlow2.0-Examples](https://github.com/YunYang1994/TensorFlow2.0-Examples)  
  
  [该项目主要用来记录一些论文与经典书籍的阅读笔记，主要涵盖机器学习、自然语言处理以及强化学习等领域的经典论文](https://github.com/NELSONZHAO/paper-learning-and-notes)  
 
