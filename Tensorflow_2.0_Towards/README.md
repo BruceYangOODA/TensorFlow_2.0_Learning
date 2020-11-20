@@ -10,6 +10,8 @@ Tensorflow_2.0_Towards
 02_Tensorflow_basic_API  
 03_Keras_intro  
 05_DNN_fashion  
+06_VGG16_cifar10  
+
 
 ### 02_Tensorflow_basic_API
 tf.convert_to_tensor()   
@@ -59,3 +61,12 @@ data = data.map(fuction).shuffle(num_smp).batch(batch_size)
 data_iter = iter(data)  
 samples = next(data_iter)  
 y_one_hot = tf.one_hot(y, depth=10)  
+
+### 06_VGG16_cifar10
+Intro to Conv2D Pooling  
+optimizer = optimizers.Adam(lr=0.03)  
+loss_fun = losses.CategoricalCrossentropy(from_logits=True)  
+model.compile(loss=loss_func, optimizer=optimizer, metrics=["accuracy"])  
+history = model.fit(x_train,y_train, batch_size=batch_size, epochs=3, verbose=1,validation_data=(x_test,y_test))  
+model.trainable_variables  
+
