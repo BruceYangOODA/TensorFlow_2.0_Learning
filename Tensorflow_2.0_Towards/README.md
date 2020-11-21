@@ -64,8 +64,8 @@ y_one_hot = tf.one_hot(y, depth=10)
 
 ### 06_VGG16_cifar10
 Intro to Conv2D Pooling  
-optimizer = optimizers.Adam(lr=0.03)  
-loss_fun = losses.CategoricalCrossentropy(from_logits=True)  
+optimizer = optimizers.Adam(lr=0.01)  
+loss_func = losses.CategoricalCrossentropy(from_logits=True)  
 model.compile(loss=loss_func, optimizer=optimizer, metrics=["accuracy"])  
 history = model.fit(x_train,y_train, batch_size=batch_size, epochs=3, verbose=1,validation_data=(x_test,y_test))  
 model.trainable_variables  
