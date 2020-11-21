@@ -1,0 +1,55 @@
+
+[Chrome OS安裝教程](https://www.youtube.com/watch?v=NqWw0Bu0S2s)
+
+
+【更多資源】▶https://www.youtube.com/channel/UCvij... = 1
+【TG電報】▶https://t.me/joinchat/N_RwDBSTuLn_BGn...
+-------------------------------------
+我的下載工具：http://www.internetdownloadmanager.co...
+Ubuntu Mate可行性下載：https://bit.ly/323xLHz
+Rufus寫盤工具：https://bit.ly/323xLHz
+Chrome安裝框架+恢復鏡像下載下載：https://bit.ly/323xLHz
+install.sh腳本命令：
+install.sh脚本命令：
+sudo apt-get update
+sudo apt-get install figlet
+sudo apt-get install pv
+sudo apt-get install cgpt
+sudo bash chromeos-install.sh -src rammus_recovery.bin -dst /dev/sda
+翻牆VPN推薦（排名前3）：
+1.ExpressVPN：https://bit.ly/2Dg1rHU
+2.NordVPN：https://bit.ly/31EGtfA
+3.Surfshark：https://bit.ly/3jTYBcl
+
+-------------------------------------
+Ubuntu真正免費，開源的操作系統！附最新安裝教程+安全設置
+https://youtu.be/PExZJa-yoa8
+五款非常牛的免費軟件，你可能真的沒用過！
+https://youtu.be/eoTXmcu7fEg
+最終刪除Windows 10的五大緩存
+https://youtu.be/LPHQLPxSEjs
+免費註冊虛擬手機號，注重個人隱私更安全！
+https://youtu.be/uwglDQz4HMI
+五款最安全的聊天軟件，端到端加密讓通信更安全更放心！
+https://youtu.be/7iEL8RvaDvk
+排名前十的免費軟件，每機架都是精品，電腦軟件良心推薦！
+https://youtu.be/vHL3WaFROuo
+這5款免費軟件，使您的電腦變的更強大更專業！
+https://youtu.be/j2_zqj99ozE
+bt種子下載神器，不限速，這幾款都是真正好用的BT下載工具
+https://youtu.be/ZUT5oZUlpeM
+如何讓電腦更安全
+https://youtu.be/NpDw0mxEESM
+五款最安全的聊天軟件
+https://youtu.be/7iEL8RvaDvk
+免費在線看電影
+https://youtu.be/KKOj17M683A
+5款非常棒的免費軟件
+https://youtu.be/j2_zqj99ozE
+排名前10的谷歌精品插件
+https://youtu.be/FNEn73wd_CE
+十款Windows10精品應用
+https://youtu.be/WJVUk9cgUDw
+這些免費軟件希望你早點知道
+https://youtu.be/ME2jxWLltA0
+
