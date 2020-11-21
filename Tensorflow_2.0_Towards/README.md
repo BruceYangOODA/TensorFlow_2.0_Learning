@@ -12,6 +12,7 @@ Tensorflow_2.0_Towards
 05_DNN_fashion  
 06_VGG16_cifar10  
 06_ResNet_cifar10  
+06_GoogleNet_mnist  
 
 ### 02_Tensorflow_basic_API
 tf.convert_to_tensor()   
@@ -74,9 +75,7 @@ model.trainable_variables
 tf.test.gpu_device_name()  
 tf.test.is_gpu_available()  
 
+### 06_GoogleNet_mnist
 
 
 
-
-tf.test.gpu_device_name()  
-tf.test.is_gpu_available()  
