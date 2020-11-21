@@ -11,7 +11,7 @@ Tensorflow_2.0_Towards
 03_Keras_intro  
 05_DNN_fashion  
 06_VGG16_cifar10  
-
+06_ResNet_cifar10  
 
 ### 02_Tensorflow_basic_API
 tf.convert_to_tensor()   
@@ -70,3 +70,13 @@ model.compile(loss=loss_func, optimizer=optimizer, metrics=["accuracy"])
 history = model.fit(x_train,y_train, batch_size=batch_size, epochs=3, verbose=1,validation_data=(x_test,y_test))  
 model.trainable_variables  
 
+### 06_ResNet_cifar10
+tf.test.gpu_device_name()  
+tf.test.is_gpu_available()  
+
+
+
+
+
+tf.test.gpu_device_name()  
+tf.test.is_gpu_available()  
