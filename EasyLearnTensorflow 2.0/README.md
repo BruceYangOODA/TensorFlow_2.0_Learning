@@ -1,6 +1,7 @@
 
 
-# [輕鬆學會 Google TensorFlow 2.0 人工智慧深度學習實作開發](https://github.com/taipeitechmmslab/MMSLAB-TF2)
+# [輕鬆學會 Google TensorFlow 2.0 ](https://github.com/taipeitechmmslab/MMSLAB-TF2)
+## 人工智慧深度學習實作開發
 
 
 conda install pydot
