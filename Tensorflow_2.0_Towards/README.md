@@ -14,8 +14,10 @@ Tensorflow_2.0_Towards
 06_ResNet_cifar10  
 06_GoogleNet_mnist  
 07_LSTM_stock_predict  
-07_LSTM_imdb
-09_AE_fashion
+07_LSTM_imdb  
+09_AE_fashion  
+
+
 
 ### 02_Tensorflow_basic_API
 tf.convert_to_tensor()   
