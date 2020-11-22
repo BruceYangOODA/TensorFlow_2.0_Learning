@@ -16,7 +16,7 @@ Tensorflow_2.0_Towards
 07_LSTM_stock_predict  
 07_LSTM_imdb  
 09_AE_fashion  
-
+09_VAE_fashion  
 
 
 ### 02_Tensorflow_basic_API
@@ -90,6 +90,6 @@ judge = lambda x:1 if x>0.5 else 0
 ### 09_AE_fashion
 ![efc]"(jupyter_logo_s.png)  
 ![abc]"(http://jupyter.org/assets/main-logo.svg)  
-
+### 09_VAE_fashion
 
 
