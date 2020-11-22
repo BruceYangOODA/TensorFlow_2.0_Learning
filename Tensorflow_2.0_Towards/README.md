@@ -15,6 +15,7 @@ Tensorflow_2.0_Towards
 06_GoogleNet_mnist  
 07_LSTM_stock_predict  
 07_LSTM_imdb
+09_AE_fashion
 
 ### 02_Tensorflow_basic_API
 tf.convert_to_tensor()   
@@ -83,3 +84,10 @@ tf.test.is_gpu_available()
 word_index = datasets.imdb.get_word_index()  
 index_word = {v:k for k,v in word_index.items()}  
 judge = lambda x:1 if x>0.5 else 0  
+
+### 09_AE_fashion
+![efc]"(jupyter_logo_s.png)  
+![abc]"(http://jupyter.org/assets/main-logo.svg)  
+
+
+
