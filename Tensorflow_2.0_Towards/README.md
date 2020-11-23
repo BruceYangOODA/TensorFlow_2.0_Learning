@@ -47,7 +47,7 @@ tf.argmax(input, axis=None, output_type=tf.dtypes.int64)  維度最高值 index
 模型儲存  
 檔案讀取  
 model.save_weigits(filepath)  
-model = create_model()  
+model = def build_model()  
 model.load_weights(filepath)  
 
 model.save(filepath)  
