@@ -34,4 +34,17 @@ np.random.permutation(x : int or array_like)
 model_cbk = callbacks.TensorBoard(log_dir=log_dir)  
 model_mcbk = callbacks.ModelCheckpoint(model_dir+"model_02.h5", monitor="val_mean_absolute_error", save_best_only=True, mode="min")  
 
+method_1  
+%load_ext tensorboard  
+%tensorboard --logdir lab2-logs  
+method_2  
+cmd  ->
+tensorboard --logdir lab2-logs
+http://localhost:6006/  
+變更瀏覽的阜號  
+tensorboard -port 9527 --logdir lab2-logs  
+http://localhost:9527/  
+
+
+
 
