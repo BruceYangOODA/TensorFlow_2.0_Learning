@@ -14,6 +14,8 @@ Kaggle
 https://www.kaggle.com/harlfoxem/housesalesprediction
 
 
+[Python实现Github下载工具](https://blog.csdn.net/sherpahu/article/details/81022575)  
+
 02_Regression_kc_house_data  
 
 
