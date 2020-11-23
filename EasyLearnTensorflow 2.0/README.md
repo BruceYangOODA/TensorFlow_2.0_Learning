@@ -39,7 +39,7 @@ method_1
 %tensorboard --logdir lab2-logs  
 method_2  
 cmd  ->
-tensorboard --logdir lab2-logs
+tensorboard --logdir lab2-logs  
 http://localhost:6006/  
 變更瀏覽的阜號  
 tensorboard -port 9527 --logdir lab2-logs  
