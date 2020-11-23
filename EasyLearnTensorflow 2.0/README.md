@@ -17,7 +17,7 @@ https://www.kaggle.com/harlfoxem/housesalesprediction
 [Python实现Github下载工具](https://blog.csdn.net/sherpahu/article/details/81022575)  
 
 02_Regression_kc_house_data  
-
+03_Pokemon_PK  
 
 
 ### 02_Regression_kc_house_data
@@ -47,6 +47,17 @@ http://localhost:6006/
 tensorboard -port 9527 --logdir lab2-logs  
 http://localhost:9527/  
 
-
+### 03_Pokemon_PK
+from urllib.request import urlretrieve  
+urlretrieve(url, filename=filepath)  
+data_df = data_df.set_index(str_index)  
+data_df.info()  
+data_df["Type 1"].value_counts(dropna=False)    
+data_df["Type 1"].fillna("empty", inplace=True)  
+type1_dict = dict(enumerate(data_df["Type 1"].cat.categories))  
+data_df["Type 1"] = data_df["Type 1"].cat.codes  
+data_df["Type 1"] = data_df["Type 1"].cat.codes.values  
+model_cbk = keras.callbacks.TensorBoard(log_dir=log_dir)  
+model_mckp = keras.callbacks.ModelCheckpoint()  
 
 
