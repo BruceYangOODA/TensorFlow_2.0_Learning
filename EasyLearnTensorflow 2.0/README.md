@@ -27,6 +27,7 @@ https://www.kaggle.com/harlfoxem/housesalesprediction
 03_Pokemon_PK  
 04_CNN_cifar10  
 05_BatchNormalization_cifar10  
+06_CustomModel_cifar10  
 
 
 ### 02_Regression_kc_house_data
@@ -92,7 +93,7 @@ BatchNormalization 優點整理
 * 減少梯度消失或梯度爆炸
 * 避免過度擬合(減少Dropout或Regularization的使用)
 * 加快學習速度(減少Internal Covariate Shift的問題，可以使用較大的學習率訓練)
-
+### 06_CustomModel_cifar10
 
 
 
