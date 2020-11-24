@@ -81,6 +81,19 @@ tfds.list_builders()  顯示TensorFlow Datasets目前提供的數據集
 model_cbk = keras.callbacks.TensorBoard(log_dir=log_dir)  
 model_mckp = keras.callbacks.ModelCheckpoint(model_dir + '/Best-model-1.h5', monitor='val_categorical_accuracy', save_best_only=True, mode='max')  
 ### 05_BatchNormalization_cifar10
+使用 Sigmoid或 Tanh作為激活函數，建議使用 Glorot初始函數  
+使用 ReLU或其他變形作為激活函數，建議使用 He初始函數  
+使用 ReLU作為激活函數，其性能優於 Sigmoid或 Tanh  
+
+BatchNormalization 對輸入網路的每一批次batch資料，在每一層的網路網路輸出進行標準化  
+權重初始化，可以使用較大的學習率訓練網路，加速網路訓練速度  
+BatchNormalization 優點整理  
+* 不需依賴權重初始化方法
+* 減少梯度消失或梯度爆炸
+* 避免過度擬合(減少Dropout或Regularization的使用)
+* 加快學習速度(減少Internal Covariate Shift的問題，可以使用較大的學習率訓練)
+
+
 
 
 
