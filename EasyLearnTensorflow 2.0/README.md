@@ -26,6 +26,8 @@ https://www.kaggle.com/harlfoxem/housesalesprediction
 02_Regression_kc_house_data  
 03_Pokemon_PK  
 04_CNN_cifar10  
+05_BatchNormalization_cifar10  
+
 
 ### 02_Regression_kc_house_data
 Regression -> MSE(Mean Squared Error) or MAE(Mean Absolute Error)  
@@ -78,4 +80,8 @@ tfds.list_builders()  顯示TensorFlow Datasets目前提供的數據集
 
 model_cbk = keras.callbacks.TensorBoard(log_dir=log_dir)  
 model_mckp = keras.callbacks.ModelCheckpoint(model_dir + '/Best-model-1.h5', monitor='val_categorical_accuracy', save_best_only=True, mode='max')  
-                                             
+### 05_BatchNormalization_cifar10
+
+
+
+
