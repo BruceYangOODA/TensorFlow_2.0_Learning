@@ -3,6 +3,13 @@
 # [輕鬆學會 Google TensorFlow 2.0 ](https://github.com/taipeitechmmslab/MMSLAB-TF2)
 ## 人工智慧深度學習實作開發
 
+常見的監督式學習方法  
+最鄰近法(K-Nearest Neighbors, KNN)  
+決策樹(Decision Trees)和隨機森林(Random Forests)  
+支援向量機(Support Vector Machines, SVM)  
+深度神經網路(Deep Neural Networks, DNN)
+
+
 
 conda install pydot
 https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/x64/
@@ -18,12 +25,14 @@ https://www.kaggle.com/harlfoxem/housesalesprediction
 
 02_Regression_kc_house_data  
 03_Pokemon_PK  
-
+04_CNN_cifar10  
 
 ### 02_Regression_kc_house_data
 Regression -> MSE(Mean Squared Error) or MAE(Mean Absolute Error)  
 二元分類 -> BCE(Binary CroosEntropy)  
 多元分類 -> CCE(Categorical CrossEntropy)  
+BCE 損失函數為 sigmoid激活函數和 CrossEntropy損失函數，所以又稱為 Sigmoid CrossEntropy  
+onehot encoding 類別之間沒有連續關係，訓練出來的表現會比用數值訓練的好  
 
 from Ipython.display import Image  
 from tensorflow.keras import utils  
@@ -60,4 +69,13 @@ data_df["Type 1"] = data_df["Type 1"].cat.codes.values
 model_cbk = keras.callbacks.TensorBoard(log_dir=log_dir)  
 model_mckp = keras.callbacks.ModelCheckpoint()  
 
+### 04_CNN_cifar10
+pip install tensorflow-datasets  
+pip install git+https://github.com/tensorflow/datasets.git  
 
+import tensorflow_datasets as tfds  
+tfds.list_builders()  顯示TensorFlow Datasets目前提供的數據集  
+
+model_cbk = keras.callbacks.TensorBoard(log_dir=log_dir)  
+model_mckp = keras.callbacks.ModelCheckpoint(model_dir + '/Best-model-1.h5', monitor='val_categorical_accuracy', save_best_only=True, mode='max')  
+                                             
