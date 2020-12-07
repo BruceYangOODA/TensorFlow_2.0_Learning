@@ -4,10 +4,10 @@
 
 
 
-05_rating_movie
-
+05_rating_movie  
+06_mnist  
 
 
 05_rating_movie  
 np.random.permuatation()  打亂序列  
-
+06_mnist  
