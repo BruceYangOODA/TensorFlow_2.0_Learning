@@ -7,7 +7,7 @@
 05_rating_movie  
 06_mnist  
 07_LSTM_imdb  
-
+第8章_基於索引的深度學習對話模型 
 
 05_rating_movie  
 np.random.permuatation()  打亂序列  
@@ -16,6 +16,6 @@ np.random.permuatation()  打亂序列
 
 07_LSTM_imdb  
 
-
+第8章_基於索引的深度學習對話模型
 
 
