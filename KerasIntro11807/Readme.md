@@ -10,7 +10,7 @@
 第8章_基於索引的深度學習對話模型 
 第8章_文字產生  
 08_gen_words  
-
+第9章_時間序列分析
 
 05_rating_movie  
 np.random.permuatation()  打亂序列  
@@ -23,3 +23,4 @@ np.random.permuatation()  打亂序列
 第8章_文字產生  
 08_gen_words  
 
+第9章_時間序列分析
