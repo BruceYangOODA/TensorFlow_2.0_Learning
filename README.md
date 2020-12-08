@@ -3,7 +3,7 @@ TensorFlow-2.x-Tutorials  [TensorFlow 2.0 Tutorials](https://github.com/dragen18
 Tensorflow_2.0_Towards  [Towards Tensorflow 2.0 無痛打造AI模型MP22014](http://www.drmaster.com.tw/Bookinfo.asp?BookID=MP22014)  
 EasyLearnTensorflow 2.0  [輕鬆學會 Google TensorFlow 2.0 人工智慧深度學習實作開發](https://github.com/taipeitechmmslab/MMSLAB-TF2)  
 KerasIntro11807  [Python深度學習實作：Keras快速上手](http://www.drmaster.com.tw/Bookinfo.asp?BookID=MP11807)  
-Tensorflow2.0Intro12016  [TensorFlow 2.0 深度學習快速入門：從1到2快人一步，從0到2一步到位](http://www.drmaster.com.tw/bookinfo.asp?BookID=MP12016)
+Tensorflow2.0_Intro12016  [TensorFlow 2.0 深度學習快速入門：從1到2快人一步，從0到2一步到位](http://www.drmaster.com.tw/bookinfo.asp?BookID=MP12016)
 
 
 
