@@ -30,7 +30,7 @@ https://www.kaggle.com/harlfoxem/housesalesprediction
 06_CustomModel_cifar10  
 07_TensorBoard  
 08_load_classical_model  
-
+Lab9.ipynb  
 
 ### 02_Regression_kc_house_data
 Regression -> MSE(Mean Squared Error) or MAE(Mean Absolute Error)  
@@ -104,4 +104,5 @@ top3_indexs = np.argsort(preds)[0, ::-1][:3]
 conda install tensorflow-hub  
 hub.KerasLayer(module_url, input_shape=(299, 299, 3), output_shape=(1001, ), name='Inception_v3') 
 
+Lab9.ipynb
 
