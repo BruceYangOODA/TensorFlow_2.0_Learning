@@ -29,6 +29,7 @@ https://www.kaggle.com/harlfoxem/housesalesprediction
 05_BatchNormalization_cifar10  
 06_CustomModel_cifar10  
 07_TensorBoard  
+08_load_classical_model  
 
 
 ### 02_Regression_kc_house_data
@@ -97,6 +98,10 @@ BatchNormalization 優點整理
 ### 06_CustomModel_cifar10
 ### 07_TensorBoard
 
-
+### 08_load_classical_model
+model = tf.keras.applications.InceptionV3(include_top=True, weights='imagenet')  
+top3_indexs = np.argsort(preds)[0, ::-1][:3]   
+conda install tensorflow-hub  
+hub.KerasLayer(module_url, input_shape=(299, 299, 3), output_shape=(1001, ), name='Inception_v3') 
 
 
