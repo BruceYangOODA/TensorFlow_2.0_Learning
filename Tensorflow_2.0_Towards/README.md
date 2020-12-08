@@ -6,6 +6,7 @@
 [关于 Markdown](https://xianbai.me/learn-md/article/syntax/paragraphs-and-line-breaks.html)  
 
 Tensorflow_2.0_Towards
+[Towards Tensorflow 2.0 無痛打造AI模型MP22014](http://www.drmaster.com.tw/Bookinfo.asp?BookID=MP22014)
 
 02_Tensorflow_basic_API  
 03_Keras_intro  
