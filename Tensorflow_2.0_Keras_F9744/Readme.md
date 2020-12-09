@@ -6,6 +6,8 @@
 05_model_SafeLoad  
 06_pandas_normalization  
 07_img_mask  
+08_CNN_mnist  
+
 
 
 ### 04_activation  
@@ -28,7 +30,9 @@ tb = pd.crosstab(Y_target, Y_pred, rownames=["label"], colnames=["predict"])
 from scipy import signal  
 c_digit = signal.convolve2d(img, sharpen, boundary="symm", mode="same")  
 img = np.load(file_path, allow_pickle=False, encoding='ASCII')  
-
+### 08_CNN_mnist
+preds = model.predict_classes(x_test)
+probs = model.predict_proba(x_test_digit, batch_size=1)  
 
 
 
