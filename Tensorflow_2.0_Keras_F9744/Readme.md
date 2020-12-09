@@ -11,7 +11,7 @@
 11_GRU_LSTM_imdb  
 12_LSTM_stock_reuters  
 13_ImageDataGenerator_URLimdb  
-
+14_optimizers_regularizers_callbacks  
 
 
 ### 04_activation  
@@ -56,7 +56,14 @@ words = text_to_word_sequence(doc, lower=False, split=",")
 words = Tokenizer().fit_on_texts(docs)  
 result = urllib.request.urlretrieve(url, file_path)   
 permu_array = np.random.permutation(length)  
-
+### 14_optimizers_regularizers_callbacks
+kernel_regularizer=regularizers.l2(0.02)  
+bias_regularizer=regularizers.l2(0.02)  
+class fitHistory(keras.callbacks.Callback):  
+mcpt = ModelCheckpoint(file_path, monitor="val_accuracy", mode="max", verbose=1, save_best_only=True)  
+early_stop = EarlyStopping(monitor="val_accuracy", mode="max", verbose=1, patience=5)  
+model = Sequential()  
+model.load_weights(weight_path)  
 
 
 
