@@ -5,7 +5,7 @@
 04_activation  
 05_model_SafeLoad  
 06_pandas_normalization  
-
+07_img_mask  
 
 
 ### 04_activation  
@@ -24,7 +24,10 @@ target_mapping = {"setosa":0, "versicolor":1, "virginica":2}
 Y = df["target"].map(target_mapping)  
 embarked_one_hot = pd.get_dummies(df["embarked"], prefix="embarked")  
 tb = pd.crosstab(Y_target, Y_pred, rownames=["label"], colnames=["predict"])   
-
+### 07_img_mask
+from scipy import signal  
+c_digit = signal.convolve2d(img, sharpen, boundary="symm", mode="same")  
+img = np.load(file_path, allow_pickle=False, encoding='ASCII')  
 
 
 
