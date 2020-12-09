@@ -12,7 +12,7 @@
 12_LSTM_stock_reuters  
 13_ImageDataGenerator_URLimdb  
 14_optimizers_regularizers_callbacks  
-
+15_keras_applications  
 
 ### 04_activation  
 ### 05_model_SafeLoad
@@ -64,7 +64,8 @@ mcpt = ModelCheckpoint(file_path, monitor="val_accuracy", mode="max", verbose=1,
 early_stop = EarlyStopping(monitor="val_accuracy", mode="max", verbose=1, patience=5)  
 model = Sequential()  
 model.load_weights(weight_path)  
-
+### 15_keras_applications 
+Xception VGG16 VGG19 ResNet ResNetV2 ResNeXt InceptionV3 InceptionResNetV2 MobileNet MobileNetV2 DenseNet NASNet  
 
 
 
