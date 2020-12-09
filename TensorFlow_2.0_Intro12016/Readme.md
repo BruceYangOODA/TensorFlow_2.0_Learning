@@ -5,7 +5,8 @@
 01_dict_csv_json  
 03_CNN_cifar10  
 ch03_cnn_cifar10  
-
+04_  
+ch_04_  
 
 
 
@@ -18,3 +19,5 @@ parser.read(config_file)
 temp_data = temp_data.reshape(images_per_file,num_channels,im_dim,im_dim)  
 temp_data = temp_data.transpose((0,2,3,1))  
 
+### 04_
+### ch_04_
