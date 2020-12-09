@@ -66,6 +66,6 @@ model = Sequential()
 model.load_weights(weight_path)  
 ### 15_keras_applications 
 Xception VGG16 VGG19 ResNet ResNetV2 ResNeXt InceptionV3 InceptionResNetV2 MobileNet MobileNetV2 DenseNet NASNet  
-
+from tensorflow.keras.utils import plot_model  
 
 
