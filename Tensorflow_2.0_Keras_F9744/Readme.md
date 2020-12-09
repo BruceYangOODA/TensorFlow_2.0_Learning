@@ -7,6 +7,8 @@
 06_pandas_normalization  
 07_img_mask  
 08_CNN_mnist  
+09_EncoderDecoder_mnist  
+11_GRU_LSTM_imdb  
 
 
 
@@ -31,10 +33,14 @@ from scipy import signal
 c_digit = signal.convolve2d(img, sharpen, boundary="symm", mode="same")  
 img = np.load(file_path, allow_pickle=False, encoding='ASCII')  
 ### 08_CNN_mnist
-preds = model.predict_classes(x_test)
-probs = model.predict_proba(x_test_digit, batch_size=1)  
-
-
+preds = model.predict_classes(x_test)  
+probs = model.predict_proba(x_test_digit, batch_size=1)   
+### 09_EncoderDecoder_mnist
+### 11_GRU_LSTM_imdb
+word_index = imdb.get_word_index()  
+decode_word_map = dict([(value, key) for (key, value) in word_index.items()])  
+decoded_indices = [decode_word_map.get(i-3, "?") for i in X_train[0]]  
+x_train = keras.preprocessing.sequence.pad_sequences(x_train, maxlen=max_words)  
 
 
 
