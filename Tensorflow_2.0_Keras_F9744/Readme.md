@@ -9,7 +9,7 @@
 08_CNN_mnist  
 09_EncoderDecoder_mnist  
 11_GRU_LSTM_imdb  
-
+12_LSTM_stock_reuters  
 
 
 ### 04_activation  
@@ -41,6 +41,15 @@ word_index = imdb.get_word_index()
 decode_word_map = dict([(value, key) for (key, value) in word_index.items()])  
 decoded_indices = [decode_word_map.get(i-3, "?") for i in X_train[0]]  
 x_train = keras.preprocessing.sequence.pad_sequences(x_train, maxlen=max_words)  
+### 12_LSTM_stock_reuters
+from sklearn.preprocessing import MinMaxScaler  
+x_train_set = MinMaxScaler().fit_transform(x_train_set)  
+keras.datasets.reuters.load_data(num_words=top_words)  
+word_index = reuters.get_word_index()  
+decode_word_map = dict([(value, key) for (key, value) in word_index.items()]) 
+
+
+
 
 
 
