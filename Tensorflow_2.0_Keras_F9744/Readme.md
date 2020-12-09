@@ -10,6 +10,8 @@
 09_EncoderDecoder_mnist  
 11_GRU_LSTM_imdb  
 12_LSTM_stock_reuters  
+13_ImageDataGenerator_URLimdb  
+
 
 
 ### 04_activation  
@@ -47,7 +49,13 @@ x_train_set = MinMaxScaler().fit_transform(x_train_set)
 keras.datasets.reuters.load_data(num_words=top_words)  
 word_index = reuters.get_word_index()  
 decode_word_map = dict([(value, key) for (key, value) in word_index.items()]) 
-
+### 13_ImageDataGenerator_URLimdb
+from keras.preprocessing.image import load_img, img_to_array, array_to_img, save_img, ImageDataGenerator  
+from keras.preprocessing.text import text_to_word_sequence, Tokenizer  
+words = text_to_word_sequence(doc, lower=False, split=",")  
+words = Tokenizer().fit_on_texts(docs)  
+result = urllib.request.urlretrieve(url, file_path)   
+permu_array = np.random.permutation(length)  
 
 
 
