@@ -8,6 +8,7 @@ TensorFlow_2.0_Intro12016  [TensorFlow 2.0 深度學習快速入門：從1到2�
 
 
 
+TensorFlow_2.0_Intro12016 04_.ipynb  
 
 
 
