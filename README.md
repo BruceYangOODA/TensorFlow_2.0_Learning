@@ -5,7 +5,7 @@ EasyLearnTensorflow 2.0  [輕鬆學會 Google TensorFlow 2.0 人工智慧深度�
 KerasIntro11807  [Python深度學習實作：Keras快速上手](http://www.drmaster.com.tw/Bookinfo.asp?BookID=MP11807)  
 TensorFlow_2.0_Intro12016  [TensorFlow 2.0 深度學習快速入門：從1到2快人一步，從0到2一步到位](http://www.drmaster.com.tw/bookinfo.asp?BookID=MP12016)  
 Tensorflow_2.0_Keras_F9744  [TensorFlow與Keras :Python深度學習應用實務](https://www.flag.com.tw/books/product/F9744)  
-
+TensorFlow_2.0_Practice_39400 [人工智慧與深度學習--理論與Python實踐](http://books.gotop.com.tw/e_AEE039400)  
 
 TensorFlow_2.0_Intro12016 04_.ipynb  
 
