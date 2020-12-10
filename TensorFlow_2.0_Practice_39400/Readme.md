@@ -12,9 +12,9 @@ ch05_DBM_mnist
 ch05_Deep_Encoder_MLP_mnist  
 ch06_GAN_mnist  
  
-
+Lstm_Attention_mnist.py  
 AC_CartPole.py  
-
+VAE_Mnist.py  
 
 
 ### ch02_MLP_mnist
