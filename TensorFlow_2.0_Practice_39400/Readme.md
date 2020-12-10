@@ -9,6 +9,12 @@ ch04_GRU_imdb
 ch04_LSTM_imdb  
 ch05_DBM_mnist  
 ch05_Encoder_mnist  
+ch06_GAN_mnist  
+
+
+
+
+
 
 ### ch02_MLP_mnist
 ### ch03_CNN_cifar10
@@ -17,7 +23,7 @@ ch05_Encoder_mnist
 ### ch04_LSTM_imdb
 ### ch05_DBM_mnist
 ### ch05_Encoder_mnist
-
+### ch06_GAN_mnist
 
 
 
