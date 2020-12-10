@@ -7,8 +7,9 @@ ch03_CNN_cifar10
 ch03_CNN_mnist  
 ch04_GRU_imdb  
 ch04_LSTM_imdb  
+ch04_LSTM_GRU_imdb  
 ch05_DBM_mnist  
-ch05_Encoder_mnist  
+ch05_Deep_Encoder_MLP_mnist  
 ch06_GAN_mnist  
 ch07_LSTM_GRU_imdb  
 
@@ -21,8 +22,9 @@ ch07_LSTM_GRU_imdb
 ### ch03_CNN_mnist
 ### ch04_GRU_imdb
 ### ch04_LSTM_imdb
+### ch04_LSTM_GRU_imdb
 ### ch05_DBM_mnist
-### ch05_Encoder_mnist
+### ch05_Deep_Encoder_MLP_mnist
 ### ch06_GAN_mnist
 ### ch07_LSTM_GRU_imdb
 
