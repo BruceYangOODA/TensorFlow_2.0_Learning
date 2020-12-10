@@ -47,7 +47,7 @@ x_train = keras.preprocessing.sequence.pad_sequences(x_train, maxlen=max_words)
 from sklearn.preprocessing import MinMaxScaler  
 x_train_set = MinMaxScaler().fit_transform(x_train_set)  
 keras.datasets.reuters.load_data(num_words=top_words)  
-word_index = reuters.get_word_index()  
+word_index = reuters.get_word_index()  index_from=3  
 decode_word_map = dict([(value, key) for (key, value) in word_index.items()]) 
 ### 13_ImageDataGenerator_URLimdb
 from keras.preprocessing.image import load_img, img_to_array, array_to_img, save_img, ImageDataGenerator  
