@@ -3,8 +3,11 @@
 書本是1.8v，這邊試著改寫成2.0
 
 02_tensorflow_introduction   
-
+03_word2vec  
 
 
 ### 02_tensorflow_introduction
+### 03_word2vec
+
+
 
