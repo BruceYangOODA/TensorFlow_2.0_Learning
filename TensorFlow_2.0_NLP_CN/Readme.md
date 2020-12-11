@@ -6,10 +6,11 @@
 03_word2vec_20  
 04_glove_18.ipynb  
 04_document_embedding_18.ipynb  
+05_cnn_sentence_classification_20  
 
 
 ### 02_tensorflow_introduction_20
 ### 03_word2vec_20
-
+### 05_cnn_sentence_classification_20
 
 
